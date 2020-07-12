@@ -10,7 +10,12 @@
                     aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0"
                 @click="buscardatos">Buscar</button>
-            </div>
+
+                <button class="btn btn-outline-danger my-2 my-sm-0"
+                @click="mostrardatos">Listar</button>
+
+
+           </div>
             </nav>
 
             <label><h2>Lista de Registrados</h2></label>

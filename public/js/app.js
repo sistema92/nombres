@@ -2031,6 +2031,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 
@@ -41708,6 +41713,15 @@ var render = function() {
                   on: { click: _vm.buscardatos }
                 },
                 [_vm._v("Buscar")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-outline-danger my-2 my-sm-0",
+                  on: { click: _vm.mostrardatos }
+                },
+                [_vm._v("Listar")]
               )
             ])
           ]
